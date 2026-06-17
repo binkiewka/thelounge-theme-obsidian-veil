@@ -1,0 +1,33 @@
+{
+  "name": "thelounge-theme-obsidian-veil",
+  "description": "Obsidian Veil — A premium AMOLED-black dark theme for The Lounge IRC client with cyber-neon accents, compact desktop layout, and mobile chat bubbles.",
+  "version": "1.0.0",
+  "keywords": [
+    "thelounge",
+    "thelounge-theme",
+    "dark-theme",
+    "amoled",
+    "irc",
+    "glassmorphism"
+  ],
+  "homepage": "https://github.com/binkiewka/thelounge-theme-obsidian-veil",
+  "bugs": {
+    "url": "https://github.com/binkiewka/thelounge-theme-obsidian-veil/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binkiewka/thelounge-theme-obsidian-veil.git"
+  },
+  "author": "binkiewka",
+  "license": "MIT",
+  "main": "package.json",
+  "files": [
+    "obsidian-veil.css",
+    "screenshots/"
+  ],
+  "thelounge": {
+    "name": "Obsidian Veil",
+    "type": "theme",
+    "css": "obsidian-veil.css"
+  }
+}
