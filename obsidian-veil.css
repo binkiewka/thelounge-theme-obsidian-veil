@@ -622,6 +622,18 @@ kbd,
     display: flex;
     justify-content: center;
     width: 100%;
+    clear: both !important;
+  }
+
+  /* Date/unread marker containers stretch over all messages in a day section,
+     blocking tap events on links. Let taps pass through the container. */
+  .date-marker-container {
+    pointer-events: none !important;
+  }
+
+  /* Re-enable pointer events on the actual visible elements inside */
+  .date-marker-container > * {
+    pointer-events: auto !important;
   }
 
   #chat .content {
