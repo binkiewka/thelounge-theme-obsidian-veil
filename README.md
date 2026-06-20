@@ -45,7 +45,15 @@ cd ~/.thelounge/packages
 npm install thelounge-theme-obsidian-veil
 ```
 
-### Manual / Docker
+### Docker
+
+```bash
+docker exec -it thelounge thelounge install thelounge-theme-obsidian-veil
+```
+
+The theme installs to your volume-mounted `~/.thelounge/packages/` directory and persists across container recreations.
+
+### Manual
 
 1. Clone or download this repository
 2. Copy the folder into your The Lounge packages directory:
